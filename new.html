@@ -2,8 +2,12 @@
 <html>
 <link href="css/menu.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/slidebar.css" rel="stylesheet">
+<link href="generic.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link href="themes/6/js-image-slider.css" rel="stylesheet" type="text/css" />
+
+
+
 <head>
 <title>Home </title>
 </head>
@@ -21,7 +25,27 @@
 
 <div style="padding-left:16px">
   <h2>Coffee</h2>
-  <div class="w3-content w3-display-container" style="max-width:800px">
+
+  <div id="sliderFrame">
+      <div id="slider">
+          <a>
+              <img src="images/coffee.jpg" alt="" />
+          </a>
+          <a class="video" src="https://www.youtube.com/embed/OTVE5iPMKLg">
+
+              <b data-src="images/cpg.jpg">CPG Grey</b>
+          </a>
+          <a class="video" href="http://www.youtube.com/watch?v=P0G_2tiivxE">
+              <b data-src="some.jpg">Image Slider</b>
+          </a>
+          <a class="lazyImage" href="capu.jpg">Slide 4</a>
+          <a class="video" href="http://vimeo.com/18867695" data-autovideo="1">
+              <b data-src="images/image-slider-5.jpg">Slide 5</b>
+          </a>
+      </div>
+  </div>
+
+  <!-- <div class="w3-content w3-display-container" style="max-width:800px">
     <img class="mySlides" src="images/coffee.jpg" style="width:100%">
     <img class="mySlides" src="images/some.jpg" style="width:100%">
     <img class="mySlides" src="images/capu.jpg" style="width:100%">
@@ -35,10 +59,14 @@
       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
     </div>
   </div>
+-->
   <p>Resize the browser window to see how it works.</p>
 </div>
 
   <script src="js/menu.js"></script>
   <script src="js/slidebar.js"></script>
+  <script src="themes/6/mcVideoPlugin.js" type="text/javascript"></script>
+  <script src="themes/6/js-image-slider.js" type="text/javascript"></script>
+  <script type="text/javascript">
 </body>
 </html>
