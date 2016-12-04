@@ -13,6 +13,7 @@
 #slider, #slider .sliderInner {
     width:700px;height:306px;/* Must be the same size as the slider images */
     border-radius: 6px;
+
 }
 
 #slider {
@@ -50,7 +51,7 @@
   overflow: hidden;
   width: 700px;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 20px;
 }
 #text2 {
