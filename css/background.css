@@ -1,5 +1,6 @@
 body {
-  background-image: url("background.jpg");
+  /*background-image: url("background.jpg"); */
+  background-color: #F7BE81;
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
