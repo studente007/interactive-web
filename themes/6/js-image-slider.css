@@ -45,6 +45,7 @@
     z-index:3;
 }
 #text1 {
+  
   background: #FDF8F4;
   padding: 20px 20px 20px 20px;
   position: relative;
@@ -54,6 +55,8 @@
   margin-top: 50px;
   margin-left: 20px;
 }
+
+
 #text2 {
   background: #FDF8F4;
   padding: 20px 20px 20px 20px;
