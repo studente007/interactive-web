@@ -1,9 +1,14 @@
 .mySlides {
-    width: 700px;
-    margin: 0 auto; /*center-aligned*/
+  width: 700px;
+  margin: 0 auto;
     border-radius: 6px;
     background-color:white;
     position:relative;
     transform: translate3d(0,0,0);
     box-shadow: 0px 1px 5px #999999;
+}
+.w3-container {
+  width: 700px;
+  margin: 0 auto;
+
 }
