@@ -83,6 +83,10 @@
 
 	@media screen and (max-width: 1680px) {
 
+		#phone {display: none;
+
+		}
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 100em;
