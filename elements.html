@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	</head>
 	<body>
@@ -34,13 +35,41 @@
 						<p>story of coffee lovers</p>
 					</header>
 
-					<!-- Text -->
-						<section>
-							<h3>Text</h3>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>						</section>
-
+					<!-- Accordion -->
+					<div class="container">
+<div class="panel-group" id="accordion">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+			</h4>
+		</div>
+		<div id="collapse1" class="panel-collapse collapse in">
+			<div class="panel-body">text 1 </div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+			</h4>
+		</div>
+		<div id="collapse2" class="panel-collapse collapse">
+			<div class="panel-body">text 2</div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+			</h4>
+		</div>
+		<div id="collapse3" class="panel-collapse collapse">
+			<div class="panel-body">text 3</div>
+		</div>
+	</div>
+</div>
+</div>
 
 					<!-- Image -->
 						<section >
@@ -48,6 +77,19 @@
 							<h4>Fit</h4>
 							<div class="box alt">
 								<div class="row 50% uniform">
+
+									<div class="panel-group" id="accordion">
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span class="image fit"><img src="images/pic03.jpg" alt="" /></div></a>
+												</h4>
+											</div>
+											<div id="collapse1" class="panel-collapse collapse in">
+												<div class="panel-body">text 1 </div>
+											</div>
+										</div>
+
 									<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
 									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
 									<div class="4u$"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
@@ -85,6 +127,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	>
 	</body>
 </html>
