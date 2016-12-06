@@ -114,6 +114,8 @@
 
 	@media screen and (max-width: 1280px) {
 
+		#phone { display: none; }
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 81.25em;
@@ -139,6 +141,8 @@
 	}
 
 	@media screen and (max-width: 980px) {
+
+		#phone { display: none; }
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -166,6 +170,8 @@
 
 	@media screen and (max-width: 736px) {
 
+		#phone { display: none; }
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 112.5%;
@@ -191,6 +197,17 @@
 	}
 
 	@media screen and (max-width: 480px) {
+
+		#phone { display: block; }
+
+		.box.alt {
+				visibility: hidden;
+				clear: both;
+				float: left;
+				margin: 10px auto 5px 20px;
+				width: 28%;
+				display: none;
+			}
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -1560,6 +1577,14 @@
 	}
 
 	@media screen and (max-width: 480px) {
+		.box.alt {
+				visibility: hidden;
+				clear: both;
+				float: left;
+				margin: 10px auto 5px 20px;
+				width: 28%;
+				display: none;
+			}
 
 		html, body {
 			min-width: 320px;
@@ -2437,6 +2462,15 @@
 					}
 
 			@media screen and (max-width: 480px) {
+
+				.box.alt {
+				    visibility: hidden;
+				    clear: both;
+				    float: left;
+				    margin: 10px auto 5px 20px;
+				    width: 28%;
+				    display: none;
+				  }
 
 				ul.actions {
 					margin: 0 0 2em 0;
