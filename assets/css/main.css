@@ -81,6 +81,13 @@
 		width: 80em;
 	}
 
+	@media screen and (max-width: 2440px) {
+
+		#phone {display: none;
+
+		}
+	}
+
 	@media screen and (max-width: 1680px) {
 
 		#phone {display: none;
